@@ -8,7 +8,7 @@ int main(void)
 {
 	char c;
 
-	char D;
+	char d;
 
 	c = 'a';
 	d = 'A';
