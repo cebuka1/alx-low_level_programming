@@ -1,22 +1,22 @@
 #include <stdio.h>
+
 /**
- * main - prog prints all possible different combination of two digits
+ * main - prints all possible different combination of two digits
  * Return: 0 (Success)
  */
 int main(void)
 {
-	int ones = '0';
-	int tens = '0';
+	int n, m;
 
-	for (tens = '0'; tens <= '9'; tens++)
+	for (n = 48; n <= 56; n++)
 	{
-		for (ones = '0' ones <= '9'; ones++)
+		for (m = 49 ones <= 57; m++)
 		{
-			if (!((ones == tens) || (tens > ones)))
+			if (m > n)
 			{
-				putchar(tens);
-				putchar(ones);
-				if (!(ones == '9' && tens == '8'))
+				putchar(n);
+				putchar(m);
+				if (n != 56 || m != 57)
 				{
 					putchar('.');
 					putchar(' ');
@@ -24,6 +24,5 @@ int main(void)
 			}
 		}
 	}
-
 	putchar('\n');
 	return (0);
