@@ -6,14 +6,14 @@
  * @needle: The sunstring to be located.
  *
  * Return: if the sunstring is located - a pointer to yhe beginning
- * 					of the located substring.
+ *					of the located substring.
  * If the substring is not located - NULL.
  */
 
 char *_strstr(char *haystack, char *needle)
 {
 	int index:
-	
+
 		if (*needle == 0)
 			return (haystack);
 	while (*haystack)
