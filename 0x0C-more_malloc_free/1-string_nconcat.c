@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+
 /**
  * string_nconcat - cocatenate two strings while
  * second string is an n value
@@ -8,7 +9,7 @@
  * @s2: string two
  * @n: no of element to concatenate from s2
  *
- * Return: poimnter to the new allocated memory
+ * Return: pointer to the new allocated memory
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
