@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 
-	/* set cmd argument input */
+	/* set omd argument input */
 	num1 = atoi(argv[1]); /* first number input */
 	op = (argv[2]); /* operator input */
 	num2 = atoi(argv[3]); /* second number input */
