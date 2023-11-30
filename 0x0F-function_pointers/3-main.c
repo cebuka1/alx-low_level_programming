@@ -29,14 +29,14 @@ int main(int argc, char *argv[])
 	if (get_op_func(op) == NULL || op[1] != '\0')
 	{
 		printf("Error\n");
-		exit (99);
+		exit(99);
 	}
 
 	/* if user tries to divide or perform modulus by 0 */
 	if ((*op == '/' && num2 == 0) || (*op == '%' && num2 == 0))
 	{
 		printf("Error\n");
-		exit (100);
+		exit(100);
 	}
 
 	/* print results of operation */
