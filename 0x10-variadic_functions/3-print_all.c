@@ -1,10 +1,9 @@
 #include "variadic_functions.h"
 /**
- * print_all - print any argument provided to
- * function
+ * print_all - print any argument provided
  * @format: the argument specifier
  *
- * Return: any argument given based on format specifier
+ * Return: any argument given based on specified format
  */
 void print_all(const char * const format, ...)
 {
@@ -21,7 +20,7 @@ void print_all(const char * const format, ...)
 		{
 			case 'i':
 				printf("%d", va_arg(spc, int));
-				check_stat = 0;
+				check_stat = 0; /* check if condition has been met */
 				break;
 			case 'f':
 				printf("%f", va_arg(spc, double));
