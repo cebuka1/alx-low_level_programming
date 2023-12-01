@@ -41,7 +41,6 @@ void print_all(const char * const format, ...)
 			default:
 				check_stat = 1;
 				break;
-
 		}
 		if (format[i + 1] != '\0' && check_stat == 0)
 			printf(", ");
