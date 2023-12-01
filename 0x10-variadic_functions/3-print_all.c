@@ -8,7 +8,6 @@
 void print_all(const char * const format, ...)
 {
 	int i, check_stat; /* declare variables and va_arg datatype */
-
 	char *str;
 	va_list spc;
 
