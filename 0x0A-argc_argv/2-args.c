@@ -3,18 +3,24 @@
 
 /**
  * main - prints all arguments it receives
- * argv: number of arguments
- * argc: array of arguments
+ * argc: number of arguments
+ * argv: array of arguments
  *
  * Return: Always 0 (Success)
  */
 int main(int argc, char *argv[])
 {
-	int i;
+/*Declaring variables*/
+int count = 0;
 
-	for (i = 0; i < argc; i++)
-	{
-		printf("%s\n", argv[i]);
-	}
-	return (0);
+if (argc > 0)
+{
+/*WHILE - Print each arguments*/
+while (count < argc)
+{
+printf("%s\n", argv[i]);
+count++;
+}
+}
+return (0);
 }
