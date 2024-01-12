@@ -2,15 +2,16 @@
 #include "main.h"
 
 /**
- * main - prints all arguments it receives
- * argc: number of arguments
- * argv: array of arguments
+ * main - print the name of the program
+ * argc: Count arguments
+ * argv: Arguments
  *
  * Return: Always 0 (Success)
  */
 
 int main(int argc, char *argv[])
 {
+
 /*Declaring variables*/
 int count = 0;
 
